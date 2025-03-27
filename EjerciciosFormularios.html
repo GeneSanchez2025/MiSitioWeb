@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 11 al 20</title>
+    <style>
+        .container {
+            width: 100%;
+           margin:0 auto;
+            border: 2px solid #141414;
+            box-sizing: border-box;
+        }
+        .header {
+             background-color:#fcf81e8e;
+             padding: 25px;
+             text-align:center;
+        }
+        .header h1 {
+             color: rgb(20, 20, 20);
+        }
+        .footer {
+            background-color:#f5e6168e;
+             padding: 25px;
+             text-align:center;
+        }
+        .header img {
+          width: 100px;
+          height: 100px;
+          float:right;
+        }
+        .content {
+                display: flex ;
+                flex-wrap: wrap;
+            }
+            .sidebar {
+                width: 10%;
+                background-color: rgb(247, 220, 69);
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .main {
+                width: 85%;
+                padding: 3rem;
+                box-sizing: border-box;
+            }
+            iframe {
+                width: 100%;
+                height: 500px;
+                border: none;
+            }
+            </style>
+</head>
+<body>
+       <div class="container">
+      <div class="header">
+        <img src="img/imagen1.png" width="100px" height="100px">
+        <h1>Mis Formularios</h1>
+      </div>
+      <div class="content">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="Formulario1.html" target="frameformulario">Formulario 1</a></li>
+                <li> <a href="Formulario2.html" target="frameformulario">Formulario 2</a></li>
+                <li> <a href="Formulario3.html" target="frameformulario">Formulario 3</a></li>
+                <li> <a href="Formulario4.html" target="frameformulario">Formulario 4</a></li>
+ 	     
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Contenido Principal</h2>
+            <p>Bienvenido a mi pagina web. A qui encontraras informacion interesante te invito a ver mis formularios 🤗😀.</p>
+            <iframe name="frameformulario"></iframe>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Derechos Reservados &copy; 2025 Genesis Sarahi Sanchez 😁</p>
+      </div>
+   </div>
+</body>
+</html>
